@@ -1,0 +1,258 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: #e1ebe8; */
+}
+
+.topnav ul {
+    list-style-type: none;
+    /* justify-content: space-between; */
+    display: inline-flex;
+}
+
+.topnav li {
+    display:flex;
+    padding: 10px;
+    font-family: "Baloo Chettan 2", cursive;
+    color: #0f4c75;
+    font-size: 20px;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 10%;
+    background-color: #e1ebe8;
+}
+
+.logo {
+    width: 75px;
+    height: 75px;
+}
+
+.top-container {
+    background: linear-gradient(to bottom, #e1ebe8 85%, transparent);
+    width: 100%;
+    height: 660px;
+}
+
+
+.top-cloud {
+    position: relative;
+    top: 15%;
+    left: 75%;
+}
+
+.bottom-cloud {
+    position: relative;
+    top:1%;
+    left: 10%;
+}
+
+.mountains {
+    position: absolute;
+    width: 60%;
+    height: 400px;
+    left: 20%;
+    padding: 60px 0 0;
+}
+
+.intro {
+    display: block;
+    left: 40%;
+ 
+}
+
+.intro h1 {
+    color: #0f4c75; 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 70px;
+    text-align: center;
+    /* margin: 50px auto 0 auto; */
+}
+
+.intro p {
+    color: #0f4c75;
+	font-family: 'Baloo Chettan 2', cursive;
+	font-size: 23px;
+	font-weight: 400;
+    text-align: center;
+    margin: 0;
+}
+
+.middle-container {
+    /* background: greenyellow; */
+    text-align: center;
+    background: linear-gradient(to bottom, transparent,#fff 85%);
+    padding: 10px 0 0;
+}
+
+.middle-logo {
+  /* background:salmon; */
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 0 30px;
+}
+
+.middle-logo .logo {
+    height: 130px;
+    width: 130px; 
+}
+
+.middle-logo h1 {
+    color: #0f4c75;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px; 
+}
+
+.middle-logo p {
+    color: #0f4c75;
+	font-family: 'Baloo Chettan 2', cursive;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.algo-section {
+    padding: 60px 0 60px;
+    background: purple;
+}
+
+.algo-image {
+    /* height: 500px; */
+    padding: 0 0 30px;
+    width: 80%;
+}
+
+.cod-section{
+    background: sandybrown;
+    padding: 60px 0 60px;
+}
+
+.nike-section {
+   padding: 60px 0 60px;
+   background: rgb(37, 62, 136);
+
+}
+
+.mph-section {
+    padding: 60px 0 60px;
+    background: seagreen;
+}
+
+.portfolio-section {
+    padding: 60px 0 60px;
+    background: indianred;
+}
+
+.p2, .p3{
+    color: ivory;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0 10px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: ivory;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0 10px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-section {
+    color: #0f4c75;
+	font-family: 'Baloo Chettan 2', cursive;
+	font-size: 15px;
+	font-weight: 400;
+    padding: 50px 60px;
+    position: relative;
+}
+
+.contact-section p {
+    color: black;
+	font-family: 'Baloo Chettan 2', cursive;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+.contact-section h1 {
+    color: #0f4c75;
+    font-family: 'Courier New', Courier, monospace;
+	font-size: 40px;
+}
+
+.mainbtn {
+    display: block;
+    background-color:#3a749b;
+    border-radius: 90px;
+    font-size: 20px;
+    margin: 20px 0 0;
+    color: #e1ebe8;
+    padding: 15px 0;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0;
+}
+
+.btn6 {
+    background: linear-gradient(to bottom, #11cdd4, #11999e);
+    width: 20%;
+    font-size: 20px;
+    padding: 5px;
+    color:azure;
+    border-radius: 90px;
+    position: absolute;
+    margin: -2% auto auto;
+    right: 40%;
+  
+}
+
+h3 {
+    font-size: 30px;
+    display: block;
+    margin: 30px auto;
+    color:dodgerblue;
+}
+
+footer {
+    background-color: #1b262c;
+    display: block;
+    padding: 25px 10%;
+}
+
+.logo2 {
+    height: 85px;
+    width: 85px;
+    margin: auto 80px auto auto;
+ }
+
+
+.nav-footer {
+    text-align: center;
+}
+
+.footer-link {
+    color: #11999E;
+    font-family: 'Baloo Chettan 2', cursive;
+    margin: 15px 12px;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+
+.copyright {
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
